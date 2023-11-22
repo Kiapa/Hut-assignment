@@ -40,7 +40,7 @@ void display() {
 
 int main(int argc, char** argv) {
     glutInit(&argc, argv);
-    glutCreateWindow("Colored Hut");
+    glutCreateWindow("A Hut with a Colored triangle");
     glutInitWindowSize(400, 400);
     glutDisplayFunc(display);
     glClearColor(0.0, 0.0, 0.0, 1.0); 
